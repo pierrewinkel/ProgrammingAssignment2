@@ -1,7 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## makeCacheMatrix is a function that creates a matrix object ('x') (which is supposed to be invetible)
+## that can be used four functions : 
+##      get : to read the content of x
+##      set : to set the content of x
+##      setinverse : to set the inverse of x
+##      getinverse : to get the inverse of x
+## 
 
 makeCacheMatrix <- function(x=matrix()){
         m <- NULL
